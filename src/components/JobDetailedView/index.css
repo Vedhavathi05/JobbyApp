@@ -1,0 +1,15 @@
+* {
+  margin: 0px;
+  padding: 0px;
+}
+
+.detailed-view {
+  background-color: #000000;
+  padding: 30px;
+}
+.similar-detail-view-list-items {
+  width: 100%;
+  display: flex;
+  flex-wrap: wrap;
+  margin: 30px;
+}

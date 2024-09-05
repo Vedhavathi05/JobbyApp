@@ -8,6 +8,8 @@ import Header from '../Header'
 import DetailedViewCard from '../DetailedViewCard'
 import SimilarJobsCard from '../SimilarJobsCard'
 
+import './index.css'
+
 class JobDetailedView extends Component {
   state = {
     jobsDetailsList: [],
@@ -118,7 +120,7 @@ class JobDetailedView extends Component {
       <div>
         <DetailedViewCard jobsDetails={jobsDetailsList} />
         <h1>Similar Jobs</h1>
-        <ul>
+        <ul className="similar-detail-view-list-items">
           {similarJobsDetailsList.map(each => (
             <li key={each.id}>
               <SimilarJobsCard details={each} key={each.id} />
@@ -133,7 +135,7 @@ class JobDetailedView extends Component {
     return (
       <div>
         <Header />
-        {this.showTheDetails()}
+        <div className="detailed-view">{this.showTheDetails()}</div>
       </div>
     )
   }

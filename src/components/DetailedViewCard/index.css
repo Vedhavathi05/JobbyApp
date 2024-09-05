@@ -1,0 +1,80 @@
+.detailed-view-container {
+  color: white;
+  width: 60%;
+  background-color: rgb(30, 27, 27);
+
+  border-radius: 5px;
+  padding: 15px;
+}
+
+.detailed-company-logo-styling {
+  width: 70px;
+  height: 70px;
+  margin: 15px;
+}
+.detailed-logo-alignment {
+  display: flex;
+}
+
+.detailed-location-employment-styling {
+  display: flex;
+  justify-content: space-between;
+}
+
+.detailed-side-by-side {
+  margin-right: 5px;
+  display: flex;
+  padding: 5px;
+}
+
+.detailed-loca-emp {
+  display: flex;
+}
+
+.detailed-heading-for-the {
+  margin-top: 15px;
+  margin-left: 15px;
+  font-size: 20px;
+  font-family: 'Roboto';
+}
+
+.detailed-paragraph {
+  margin-top: 15px;
+  margin-left: 15px;
+  font-size: 18px;
+}
+
+.detailed-para {
+  font-size: 13px;
+  font-family: 'Roboto';
+  color: #ffffff;
+}
+.heading-for-the-detailed {
+  font-size: 20px;
+  font-family: 'Roboto';
+}
+
+.detailed-loca-emp2 {
+  display: flex;
+  justify-content: space-between;
+}
+
+.skills-container {
+  padding: 30px;
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.displaying-skills-side-by-side {
+  display: flex;
+  margin: 40px;
+}
+
+.applying-the-padding-for-skills {
+  margin-left: 10px;
+  font-size: 20px;
+}
+
+.life-at-company-styling {
+  display: flex;
+}
